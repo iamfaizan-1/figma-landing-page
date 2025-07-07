@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.herosection{
+    background-image: url(./assets/Traveller\ 1.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.herocontent{
+    width: 50%;
+    height: 80%;
+}
+.herocontent h4{
+    font-weight: bold;
+    color: #DF6951;
+}
+.herocontent h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(18, 18, 55);
+}
+.herocontent p{
+    color: rgb(18, 18, 55);
+}
+.button{
+    background-color:rgb(249, 171, 28);
+    color: white;
+}
+.heading{
+    margin-top: 100px;
+    color: rgb(18, 18, 55);
+    
+    
+}
+.heading h2{
+    font-weight: bold;
+}
+
+.cards{
+    text-align: center;
+}
+
+.cardsection1{
+
+  margin-top: 80px;
+}
+
+
+/* cardsection2 */
+
+.card2img1{
+    background-image: url(./assets/Rectangle\ 14@2x.png);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    object-position: center;
+    
+}
+.card2img2{
+    background-image: url(./assets/Rectangle\ 14.jpg);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    object-position: center;
+}
+.card2img3{
+background-image: url(./assets/img3.png);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    object-position: center;
+}
+
+.paraa p, .parab p, .paralast {
+    /* font-weight: bold; */
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+
+/* section */
+
+.section{
+    margin-top: 100px;
+}
+
+
+.section1icon i{
+    font-size: 80px;
+    background-color: yellow;
+    color: white;
+   padding: 10px;
+   border-radius: 10px; 
+}
+.paragraph1{
+    font-size: 20px;
+}
+.section1heading h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.section1icon2{
+     font-size: 80px;
+    background-color: orange;
+    color: white;
+   padding: 10px;
+   border-radius: 10px; 
+}
+.section1icon3{
+     font-size: 80px;
+    background-color: rgb(17, 102, 145);
+    color: white;
+   padding: 10px;
+   border-radius: 10px; 
+}
+
+.section2{
+    margin-top: 150px;
+}
+.sectionimg{
+    background-image: url(./assets/img3.png);
+    object-fit: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.sectioncontent{
+    text-align: start;
+    padding-left: 120px;
+}
+.contenticon i{
+    color: grey;
+    background-color: rgb(220, 220, 220);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querry */
+
+@media (min-width:576px) and (max-width:768px) {
+.cardsection1{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+    
+}
+
+@media (max-width: 575px) {
+
+    .cardsection1{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+    
+}
