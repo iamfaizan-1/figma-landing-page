@@ -223,6 +223,17 @@ margin-bottom: 100px;
     color: white;
 }
 
+.nav-link:hover{
+
+    background-color: black;
+    color: white !important;
+    border-radius: 10px;
+
+}
+.nav-link{
+    border-radius: 10px;
+}
+
 
 
 
