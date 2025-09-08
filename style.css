@@ -3,17 +3,22 @@
     padding: 0px;
 }
 
-.herosection{
+
+.heroimg{
     background-image: url(./assets/Traveller\ 1.png);
-    height: 750px;
+   width: 100%;
     background-repeat: no-repeat;
     background-position: right top;
     object-fit: cover;
     margin-top: 30px;
+    height: 750px;
+
+    
 }
 .herocontent{
     width: 50%;
-    height: 80%;
+   padding-top: 70px;
+   padding-left: 70px;
 }
 .herocontent h4{
     font-weight: bold;
@@ -231,7 +236,37 @@ margin-bottom: 100px;
 /* media querry */
 
 @media (min-width:576px) and (max-width:768px) {
-.cardsection1{
+
+    .herocontent{
+        width: 100%;
+        background-color: burlywood;
+        margin: 20px;
+        border-radius: 20px;
+       
+        padding: 10px ;
+        
+    }
+
+    .herocontent h1{
+        font-size: 25px;
+    }
+    .herocontent h4{
+        font-size: 15px;
+    }
+    .herocontent p{
+        font-size: 11px;
+    }
+    .heroimg{
+        align-items: end;
+    }
+    .herocontent button {
+        font-size: 11px;
+    }
+
+
+
+
+    .cardsection1{
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr !important;
 }
@@ -251,10 +286,50 @@ width: 100% !important ;
 
 @media (max-width: 575px) {
 
+.sec3para p{
+    font-size: 15px;
+}
+.sec3para{
+    padding: 20px ;
+}
+.section3{
+    padding: 20px;
+}
+.section3 input, button{
+    font-size: 10px;
+    width: 80px;
+}
     .cardsection1{
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
     }
+ .herocontent button {
+        font-size: 11px;
+    }
+
+    .herocontent{
+        width: 100%;
+        background-color: burlywood;
+        margin: 20px;
+        border-radius: 20px;
+         padding: 10px ;
+        
+        
+    }
+    .heroimg{
+        align-items: end;
+    }
+
+    .herocontent h1{
+        font-size: 25px;
+    }
+    .herocontent h4{
+        font-size: 15px;
+    }
+    .herocontent p{
+        font-size: 11px;
+    }
+
     .section{
     display: grid !important;
     grid-template-columns: 1fr !important;
@@ -266,5 +341,33 @@ width: 100% !important ;
 .footer{
     grid-template-columns: 1fr 1fr;
 }
+    
+}
+
+@media (min-width: 768px)  and  (max-width: 1028px)  {
+
+    .herocontent{
+        width: 100%;
+        background-color: burlywood;
+        margin: 20px;
+        border-radius: 20px;
+        padding : 30px;
+
+        
+        
+    }
+
+    .herocontent h1{
+        font-size: 35px;
+    }
+    .herocontent h4{
+        font-size: 25px;
+    }
+    .herocontent p{
+        font-size: 13px;
+    }
+    .heroimg{
+        align-items: end;
+    }
     
 }
