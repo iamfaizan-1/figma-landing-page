@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./bootstrap-5.3.6-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -12,6 +13,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
+    
     <a class="navbar-brand d-flex align-items-center ml" href="#">
         <img src="./assets/Logo.png" width="90" height="24" alt="">
     </a>
@@ -48,7 +50,7 @@
 
 <div class="herosection">
 
-  <div class="heroimg d-flex justify-content-lg-start align-items-lg-start">
+  <div data-aos="fade-down" data-aos-duration = "1500" class="heroimg   d-flex justify-content-lg-start align-items-lg-start">
  <div class="herocontent d-flex flex-column justify-content-center align-items-center">
       <h4>Best Destinations around the world</h4>
       <h1>Travel, enjoy
@@ -350,8 +352,11 @@ Control for much longer.
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./bootstrap-5.3.6-dist/js/bootstrap.min.js" ></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
